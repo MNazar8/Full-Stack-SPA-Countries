@@ -1,7 +1,7 @@
 const { Country, Activity } = require("../db");
 const axios = require("axios");
 
-let URL = "http://localhost:5000/countries";
+let URL = "https://restcountries.com/v3/all/";
 
 
 const getCountries = async (req, res) => {
@@ -28,7 +28,7 @@ const getCountries = async (req, res) => {
             return {
                 id: country.cca3,
                 name: country.name.common,
-                imgFlag: country.flags.png,
+                imgFlag: country.flags[1],
                 continent: country.continents[0],
                 capital: country.capital ? country.capital[0] : "This country doesn't have capital",
                 subregion: country.subregion ? country.subregion : "This country doesn't have subregion",
