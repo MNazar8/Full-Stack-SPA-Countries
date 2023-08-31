@@ -11,12 +11,11 @@ import {
     POST_ACTIVITY
 } from './actionTypes';
 
-const URL = 'http://localhost:3001/countries';
 
 export function getCountries() {
     return async function (dispatch) {
         try {
-            var response = await axios.get(URL)
+            var response = await axios.get('/countries')
             return dispatch({
                 type: GET_ALL_COUNTRIES,
                 payload: response.data
@@ -30,7 +29,7 @@ export function getCountries() {
 export function getCountriesByName(payload) {
     return async function (dispatch) {
         try {
-            var response = await axios.get(URL + '?name=' + payload)
+            var response = await axios.get('/countries' + '?name=' + payload)
             return dispatch({
                 type: GET_COUNTRY_BY_NAME,
                 payload: response.data
@@ -44,7 +43,7 @@ export function getCountriesByName(payload) {
 export function getDetail(id) {
     return async function (dispatch) {
         try {
-            var response = await axios.get(URL + `/${id}`)
+            var response = await axios.get('/countries' + `/${id}`)
             return dispatch({
                 type: GET_COUNTRY_DETAIL,
                 payload: response.data
@@ -58,7 +57,7 @@ export function getDetail(id) {
 export function getActivities() {
     return async function (dispatch) {
         try {
-            var response = await axios.get('http://localhost:3001/activities')
+            var response = await axios.get('/activities')
             return dispatch({
                 type: GET_ACTIVITIES,
                 payload: response.data
@@ -72,7 +71,7 @@ export function getActivities() {
 export function postActivity(payload) {
     return function (dispatch) {
         try {
-            axios.post('http://localhost:3001/activities', payload)
+            axios.post('/activities', payload)
                 .then((data) => {
                     return dispatch({
                         type: POST_ACTIVITY,

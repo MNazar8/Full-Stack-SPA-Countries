@@ -1,9 +1,11 @@
 import Home from './views/Home/Home'
 import Landing from './views/Landing/Landing'
 import Detail from './views/Detail/Detail'
-import Form from './views/Form/form'
+import Form from './views/Form/Form'
 import {Route, Routes} from 'react-router-dom'
 import './App.css'
+import axios from 'axios'
+axios.defaults.baseURL = 'http://localhost:3001/';
 
 function App() {
   return (
