@@ -1,0 +1,33 @@
+.filters_container{
+    display: flex;
+    flex-direction: row;    
+}
+
+select{
+    width:225px;
+    font-size: large;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(41, 53, 70);
+    color: white;
+    margin: 2%;
+}
+
+.select_container{
+    background-color: rgb(41, 53, 70);
+    padding: 5%;
+    margin:  0 19px 0 0;
+    border-radius: 12px;
+}
+
+.filter_button{
+    margin: 1% 190px 0 0;
+    background-color: rgb(223,223, 223);
+}
+
+.filter_button:hover{
+    background-color: rgba(41, 53, 70, 0.548);
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+.individual_card {
+    display: grid;
+    place-items: center;
+    width: 18%;
+    margin: 0 0 1% 0;
+    background-color: white;
+    height: 250px;
+    box-shadow: -3px 3px 16px -4px rgba(0,0,0,0.74);
+    -webkit-box-shadow: -3px 3px 16px -4px rgba(0,0,0,0.74);
+    -moz-box-shadow: -3px 3px 16px -4px rgba(0,0,0,0.74);
+}
+
+.flag {
+    width: 70%;
+    height: 120px;
+
+}
+
+.country {
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.more_detail {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 53, 70);
+    margin: 0 0 10% 0;
+    padding: 6px 10px 6px 10px;
+    font-size: smaller;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.continent_name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}

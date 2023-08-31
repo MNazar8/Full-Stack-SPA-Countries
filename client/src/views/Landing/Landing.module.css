@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.container {
+    background-color: rgb(245, 245, 240);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border: 0;
+}
+
+.map {
+    float: right;
+    margin: 9% 25% 0 0;
+    background-image: url('../images/mapa.jpg');
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    object-fit: scale-down
+}
+
+.one_half {
+    width: 50%;
+    margin: 13% 0 0 11%;
+    font-family: 'Anton', sans-serif;
+}
+
+.circle{
+    background-color: #8A9DA2;
+    border-radius:70% 40% 30% 80% / 55% 45% 60% 50%;
+    height: 65px;
+    width: 65px;
+    position:absolute;
+    top: 80px; left: 130px;
+}
+
+.circle2{
+    background-color: #8A9DA2;
+    border-radius: 50% 30% 80% 70%;
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    top: 360px;
+    right: 100px;
+}
+
+.description{
+    font-family: 'Poppins', sans-serif;
+}
+
+.start{
+    text-decoration: none;
+    background-color:#8A9DA2 ;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+}
+
+.second_half{
+    width: 50%;
+}

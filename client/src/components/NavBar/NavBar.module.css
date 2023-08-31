@@ -1,0 +1,36 @@
+.mainContainer{
+    display: flex;
+}
+
+.add_activity{
+    text-decoration: none;
+    padding: .4% 1.5% .5% 1.5%;
+    border-radius: 11px;
+    margin: 3% 0 1% 5%;
+    color: black;
+}
+
+.add_activity:hover{
+    background-color: rgba(41, 53, 70, 0.548);
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+
+}
+
+.all_countries{
+    text-decoration: none;    
+    padding: .4% 1.5% .5% 1.5%;
+    border-radius: 11px;
+    margin: 3% 0 1% 5%;
+    color: black;
+    background-color: rgb(223, 223, 223)
+}
+
+.all_countries:hover{
+    background-color: rgba(41, 53, 70, 0.548);
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+
+}

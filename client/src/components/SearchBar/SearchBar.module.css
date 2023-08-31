@@ -1,0 +1,29 @@
+.search_form{
+    display: flex;
+    flex-direction: row;    
+}
+
+.input_search{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 29px;
+    padding: 0 30px 0 30px;
+}
+
+.search_button{
+    position: absolute;
+    background-color: white;
+    height: 34px;
+    width: 34px;
+    margin: 3% 0 0 85%;
+    background-color: #2f2f2f;
+    border-radius: 29px;
+}
+
+.div_input{
+    position: absolute;
+    left: 39%;
+    top: 5%;
+}

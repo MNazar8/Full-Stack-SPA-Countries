@@ -1,0 +1,33 @@
+.detail_container{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;    
+    align-items: center;
+    place-content: center;    
+    margin:3% 0 0 19%;
+    padding: 1% 5% 3% 5%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.right_wrap{
+    display: flex;
+    flex-direction: row;
+    margin:5% 0 0 0
+}
+
+.data_div{
+ width: 181px;
+}
+
+.activity_div{
+width: 244px;
+}
+
+.flag_div{
+    margin: 0 0 0 5%;
+}
+
+.flag_size{
+    width: 360px;
+}
