@@ -1,18 +1,28 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  margin: 0;
-  padding: 0px;
-  height: 100%;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+@font-face {
+  font-family: 'Paragraphy';
+  src: url('../src/assets/fonts/Paragraphy.woff2');
 }
 
-body{
-  margin: 0;
-  padding: 0;
+@font-face {
+  font-family: 'Flighty';
+  src: url('../src/assets/fonts/FlightyRegular-vm7zA.ttf');
+}
+
+@font-face {
+  font-family: 'Manifestly';
+  src: url('../src/assets/fonts/ManifestlyRegular-GO84A.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../src/assets/fonts/RobotoMono-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('../src/assets/fonts/RobotoCondensed-Regular.ttf');
 }

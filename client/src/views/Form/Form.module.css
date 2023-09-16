@@ -6,7 +6,7 @@
 .form_head {
     display: flex;
     flex-direction: column;
-    place-items: start;
+    place-items: flex-start;
     max-width: fit-content;
     justify-content: center;
 }

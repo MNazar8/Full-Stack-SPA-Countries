@@ -5,7 +5,7 @@ import Form from './views/Form/Form'
 import {Route, Routes} from 'react-router-dom'
 import './App.css'
 import axios from 'axios'
-axios.defaults.baseURL = 'https://around-the-world-production.up.railway.app/';
+axios.defaults.baseURL = 'http://localhost:3001/';
 
 function App() {
   return (

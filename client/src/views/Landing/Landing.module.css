@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
+@font-face {
+    font-family: 'Paragraphy';
+    src: url('../../assets/fonts/Paragraphy.woff2') format('woff2');
+}
 
 .container {
     background-color: rgb(245, 245, 240);
@@ -52,7 +56,7 @@
 }
 
 .description{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Paragraphy', sans-serif;
 }
 
 .start{
@@ -66,4 +70,68 @@
 
 .second_half{
     width: 50%;
+} */
+
+
+/* section {
+    display: flex;
+    gap: 10px;
 }
+
+article {
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    width: 64px;
+    height: 500px;
+    border-radius: 36px;
+    display: flex;
+    align-items: flex-end;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+article .material-symbols-outlined {
+    display: grid;
+    place-items: center;
+    width: 50px;
+    height: 50px;
+    background:
+        rgb(255 255 255 / 80%);
+    border-radius: 50%;
+    font-size: 28px;
+}
+
+article img {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    height: 150%;
+    filter: grayscale(0.5);
+}
+
+article .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    padding: 100px 0 20px 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background:
+        linear-gradient(to bottom,
+            rgb(0 0 0 / 0%),
+            rgb(0 0 0/ 80%));
+    transition: 0.25s;
+}
+
+article.active .content {
+    opacity: 1;
+    visibility: visible;
+} */
